@@ -1,0 +1,10 @@
+@font-face { font-family: Ailerons; src: url(../Fonts/Ailerons-Typeface.otf);}
+@font-face { font-family: OldRoboto; src: url(../Fonts/roboto-old/Roboto-Medium.ttf);}
+
+a { text-decoration: none;}
+
+@mixin centerRow { display: flex; flex-direction: row; justify-content: center; align-items: center;}
+@mixin centerCol { display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+
+// @media screen and (max-width: 450px) {}

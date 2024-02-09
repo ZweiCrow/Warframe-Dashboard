@@ -1,0 +1,28 @@
+@import "./constantes.scss";
+
+#ArchonHunt { width: 450px; height: 70%; margin: 0 50px; margin-top: 100px; display: flex; flex-direction: column; align-items: center;
+              &:hover { 
+                        #Title  { border: 3px solid var(--active); 
+                                  h2  { color: var(--active);}
+                                }
+                        h2  { color: var(--active);}
+                        .mission  { border: 3px solid var(--active); 
+
+                                  }
+                      }
+              #Title  { width: 100%; height: 150px; border: 3px solid var(--base); position: relative; overflow: hidden; border-radius: 5px;
+                        img { width: 100%; height: auto; position: absolute; z-index: 10; opacity: .6; margin: 0;}
+                        div { width: 100%; height: fit-content; position: absolute; z-index: 50;
+                              h2  { font-family: Ailerons; font-size: 40px; color: var(--base); margin: 20px 30px 10px;}
+                              img { height: 20px; width: 20px; position: relative; margin-right: 5px;}
+                              p   { font-family: OldRoboto; font-size: 20px; color: var(--typo); margin: 10px 30px; display: flex; align-items: center;}
+                            }
+                      }
+              img { width: 50px; height: 50px; margin-top: 20px;}
+              h2  { font-family: Ailerons; font-size: 30px; color: var(--base); margin: 10px 0 20px;}
+              .mission  { width: 95%; height: 50px; border: 3px solid var(--base); border-radius: 5px; margin-top: 20px; display: flex; align-items: center;
+                          .faction  { width: auto; height: 60%; margin: 0 20px;}
+                          .typeMission  { font-family: OldRoboto; font-size: 16px; color: var(--typo);}
+                          .node { font-family: OldRoboto; font-size: 16px; color: var(--typo);}
+                        }
+            }
